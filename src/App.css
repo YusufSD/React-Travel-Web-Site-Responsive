@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  /* font-family: "PT Sans", sans-serif; */
+}
+
+.home,
+.services,
+.products,
+.sign-up {
+  display: flex;
+  height: calc(100vh - 80px);
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+}
+
+.services {
+  background-image: url("https://i.pinimg.com/originals/aa/6a/00/aa6a005146c37d956ee4b1eb0a44350b.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
+
+.products {
+  background-image: url("https://wallpapers.com/images/hd/1080p-pictures-dwx774gyu1klz2xi.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
+
+.sign-up {
+  background-image: url("https://searchthisweb.com/wallpaper/gellatly-bay_2560x1600_ux9vx.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
